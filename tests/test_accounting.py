@@ -63,6 +63,3 @@ FIXTURE_del_doc = [('3345a', 'Документа с таким номером у
 @pytest.mark.parametrize('doc, result', FIXTURE_del_doc)
 def test_del_doc(doc, result):
     assert del_doc(doc) == result
-
-print(documents)
-print(directories)
